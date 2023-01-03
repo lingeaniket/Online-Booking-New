@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/CSS/styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="/JS/script.js"></script>
+
+  <title>Ticket Next</title>
+</head>
+<body>
+    <section id="header"></section>
+    <main>
+        <section>
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/Images/6-movie-poster-design-kollywood-tamil-imaikanodigal-prathoolnt.jpg"
+                  alt="Banner Design - Horizontal Banner Template@seekpng.com" class="d-block w-50" style="margin: auto; width: 500px;">
+                
+              </div>
+              <div class="carousel-item">
+                <img src="/Images/6-movie-poster-design-kollywood-tamil-imaikanodigal-prathoolnt.jpg" class="d-block w-50" style="margin:auto" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/Images/6-movie-poster-design-kollywood-tamil-imaikanodigal-prathoolnt.jpg" class="d-block w-50" style="margin:auto" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+        <section class="pallets">
+          <div>
+            <h2 style="text-align: center;">Select Your Movie</h2>
+          </div>
+          <div class="row row-cols-5 row-cols-md-6 g-4">
+            <div class="col">
+              <div class="container-hover h-100">
+                <a class="image">
+                  <img src="/Images/avatar2.jpg" class="card-img-top" alt="..." data-bs-toggle="modal"
+                    data-bs-target="#avatar2Modal" onclick="loadMovieInfoAvatar2()">
+                </a>
+                <div class="middle">
+                  <a class="text" href="/Movies/3Jan23/avatar2.html">Book Ticket</a>
+                </div>
+                <div class="movie-name">
+                  Avatar-2: The way of water
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="container-hover h-100">
+                <a class="image">
+                  <img src="/Images/ved.jpg" class="card-img-top" alt="..." data-bs-toggle="modal"
+                  data-bs-target="#vedModal" onclick="loadMovieInfoVed()">
+                </a>
+                <div class="middle">
+                  <a class="text" href="https://in.bookmyshow.com/pune/movies/ved/ET00343245">Book Ticket</a>
+                </div>
+                <div class="movie-name">
+                  Ved (Marathi)
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="container-hover h-100">
+                <a class="image">
+                  <img src="/Images/drishyam2.jpg" class="card-img-top" alt="..." data-bs-toggle="modal"
+                    data-bs-target="#drishyam2Modal" onclick="loadMovieInfoDrishyam2()">
+                </a>
+                <div class="middle">
+                  <a class="text" href="/Movies/3Jan23/drishyam2.html">Book Ticket</a>
+                </div>
+                <div class="movie-name">
+                  Drishyam 2
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="container-hover h-100">
+                <a class="image">
+                  <img src="/Images/connect movie.jpg" class="card-img-top" alt="..."  data-bs-toggle="modal"
+                  data-bs-target="#connectModal" onclick="loadMovieInfoConnect()">
+                </a>
+                <div class="middle">
+                  <a class="text" href="https://in.bookmyshow.com/pune/movies/connect-hindi/ET00348709">Book Ticket</a>
+                </div>
+                <div class="movie-name">
+                  Connect
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="container-hover h-100">
+                <a class="image">
+                  <img src="/Images/hit2.jpg" class="card-img-top" alt="..."  data-bs-toggle="modal"
+                  data-bs-target="#hit2Modal" onclick="loadMovieInfoHit2()">
+                </a>
+                <div class="middle">
+                  <a class="text" href="https://in.bookmyshow.com/pune/movies/hit-the-2nd-case-hindi/ET00348454">Book Ticket</a>
+                </div>
+                <div class="movie-name">
+                  Hit 2
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="container-hover h-100">
+                  <a class="image">
+                    <img src="/Images/An Action Hero.jpg" class="card-img-top" alt="..."  data-bs-toggle="modal"
+                    data-bs-target="#anActionHeroModal" onclick="loadMovieInfoAnActionHero()">
+                  </a>
+                  <div class="middle">
+                    <a class="text" href="/Movies/3Jan23/avatar2.html">Book Ticket</a>
+                  </div>
+                  <div class="movie-name">
+                    An Action Hero
+                  </div>
+                </div>
+              </div>
+          </div>
+        </section>
+        
+        <section id="openAvatar2Info"></section>
+        <section id="openVedInfo"></section>
+        <section id="openDrishyam2Info"></section>
+        <section id="openConnectInfo"></section>
+        <section id="openHit2Info"></section>
+        <section id="openAnActionHeroInfo"></section>
+      </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+    
+</body>
+</html>
