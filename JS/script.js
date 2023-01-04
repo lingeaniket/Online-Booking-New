@@ -22,7 +22,7 @@ $(document).ready(function loadMovieInfoAnActionHero() {
 //Avatar2:The Way Of Water
 $(document).ready(function () {
         //3Jan23
-        $("#cityPrideSataraRoadAvatar2-3Jan232").load('/Theaters/3Jan23/cityPrideSataraRoad.html #showSpaceAvatar2');
+        $("#cityPrideSataraRoadAvatar2-3Jan23").load('/Theaters/3Jan23/cityPrideSataraRoad.html #showSpaceAvatar2');
         $("#cinePolisSeasonsAvatar2-3Jan23").load('/Theaters/3Jan23/cinePolisSeasons.html #showSpaceAvatar2');
 
         //4Jan23
