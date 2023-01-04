@@ -1,6 +1,7 @@
 $(document).ready(function () {
         $("#header").load('HeaderFooter/header.html');
         $("#header1").load('/HeaderFooter/header.html');
+        document.title = "We Reserve"
 });
 
 //An Action Hero
