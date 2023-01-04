@@ -102,7 +102,18 @@ $(document).ready(function loadMovieInfoProjapati() {
 
 
 $(document).ready(function loadShowAvatar2() {
-                $('#openShowInfo').load('/TheatreLayout/3Jan23/cityPrideSataraRoad/layout.html #avatar2-show');
+        $('#openShowInfoAvatar23Jan23').load('/TheatreLayout/3Jan23/cityPrideSataraRoad/layout.html #avatar2-show');
 });
 
+$(document).ready(function loadShowDrishyam2() {
+        $('#openShowInfoDrishyam23Jan23').load('/TheatreLayout/3Jan23/cityPrideSataraRoad/layout.html #drishyam2-show');
+});
 
+function fnSelectSeat(seatId){
+                document.getElementById(seatId).classList.toggle('_selectedSeat');
+        
+}
+
+function unSelectSeat(seatClass) {
+        document.getElementById().classList.toggle('_selectedSeat');
+}
