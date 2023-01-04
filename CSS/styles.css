@@ -1378,6 +1378,10 @@ div[id ^="showSpace"] {
 #show-time-text p {
     font-size: 8px;
 }
+
+.card-body.active p{
+    font-size: 8px;
+}
 .card-body p{
     font-size: 12px;
 }
@@ -1563,6 +1567,9 @@ div[id ^="showSpace"] {
     #show-time-text p {
         font-size: 10px;
     }
+    .card-body.active p {
+        font-size: 10px;
+    }
 }
 
 @media (min-width:992px) {
@@ -1744,6 +1751,9 @@ div[id ^="showSpace"] {
     }
 
     #show-time-text p {
+        font-size: 12px;
+    }
+    .card-body.active p{
         font-size: 12px;
     }
 }
@@ -5008,6 +5018,16 @@ fieldset:disabled .btn {
     padding: 0rem 0.4rem
 }
 
+.card-body.active {
+    background-color: rgb(228, 196, 196);
+    border-radius: .20rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .card-title {
     margin-bottom: .5rem
 }
@@ -5016,6 +5036,46 @@ fieldset:disabled .btn {
     margin-top: -.25rem;
     margin-bottom: 0
 }
+
+.seatLayout {
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    text-align: center;
+}
+
+.seatVisible {
+    width: 25px;
+    height: 25px;
+    border: 1px solid rgb(51, 204, 45);
+    border-radius: 3px;
+    color: rgb(51, 204, 45);
+}
+
+.seatInVisible {
+    width: 25px;
+    height: 25px;
+}
+
+.rowName {
+    height: 25px;
+    width: 60px;
+}
+
+.seatTable {
+    width: 100%;
+    height: 500px;
+    overflow: scroll;
+    margin: 15px;
+    background-color: rgba(244, 242, 246, 0.529);
+}
+
+.seatTable::-webkit-scrollbar {
+    display: none;
+}
+
 
 #show-time-text {
     text-decoration: none;
