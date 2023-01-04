@@ -22,7 +22,7 @@ $(document).ready(function loadMovieInfoAnActionHero() {
 //Avatar2:The Way Of Water
 $(document).ready(function () {
         //3Jan23
-        $("#cityPrideSataraRoadAvatar2-3Jan23").load('/Theaters/3Jan23/cityPrideSataraRoad.html #showSpaceAvatar2');
+        $("#cityPrideSataraRoadAvatar2-3Jan232").load('/Theaters/3Jan23/cityPrideSataraRoad.html #showSpaceAvatar2');
         $("#cinePolisSeasonsAvatar2-3Jan23").load('/Theaters/3Jan23/cinePolisSeasons.html #showSpaceAvatar2');
 
         //4Jan23
@@ -99,3 +99,10 @@ $(document).ready(function loadMovieInfoVed() {
 $(document).ready(function loadMovieInfoProjapati() {
         $('#openProjapatiInfo').load('/MovieInfo/movie.html #projapati');
 });
+
+
+$(document).ready(function loadShowAvatar2() {
+                $('#openShowInfo').load('/TheatreLayout/3Jan23/cityPrideSataraRoad/layout.html #avatar2-show');
+});
+
+
