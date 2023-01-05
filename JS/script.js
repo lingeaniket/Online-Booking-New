@@ -142,9 +142,9 @@ $(document).ready(function loadShowDrishyam2() {
         $('#openShowInfoDrishyam2CityPrideSataraRoad4Jan23').load('/TheatreLayout/4Jan23/cityPrideSataraRoad/drishyam2.html #drishyam2-show');
         $('#openShowInfoDrishyam2CityPrideSataraRoad5Jan23').load('/TheatreLayout/5Jan23/cityPrideSataraRoad/drishyam2.html #drishyam2-show');
 
-        $('#openShowInfoDrishyam2CinePolisSeasons3Jan23').load('/TheatreLayout/3Jan23/CinePolisSeasons/drishyam2.html #drishyam2-show');
-        $('#openShowInfoDrishyam2CinePolisSeasons4Jan23').load('/TheatreLayout/4Jan23/CinePolisSeasons/drishyam2.html #drishyam2-show');
-        $('#openShowInfoDrishyam2CinePolisSeasons5Jan23').load('/TheatreLayout/5Jan23/CinePolisSeasons/drishyam2.html #drishyam2-show');
+        $('#openShowInfoDrishyam2CinePolisSeasons3Jan23').load('/TheatreLayout/3Jan23/cinePolisSeasons/drishyam2.html #drishyam2-show');
+        $('#openShowInfoDrishyam2CinePolisSeasons4Jan23').load('/TheatreLayout/4Jan23/cinePolisSeasons/drishyam2.html #drishyam2-show');
+        $('#openShowInfoDrishyam2CinePolisSeasons5Jan23').load('/TheatreLayout/5Jan23/cinePolisSeasons/drishyam2.html #drishyam2-show');
 });     
 
 
@@ -153,9 +153,9 @@ $(document).ready(function loadShowConnect() {
         $('#openShowInfoConnectCityPrideSataraRoad4Jan23').load('/TheatreLayout/4Jan23/cityPrideSataraRoad/connect.html #connect-show');
         $('#openShowInfoConnectCityPrideSataraRoad5Jan23').load('/TheatreLayout/5Jan23/cityPrideSataraRoad/connect.html #connect-show');
 
-        $('#openShowInfoConnectCinePolisSeasons3Jan23').load('/TheatreLayout/3Jan23/CinePolisSeasons/connect.html #connect-show');
-        $('#openShowInfoConnectCinePolisSeasons4Jan23').load('/TheatreLayout/4Jan23/CinePolisSeasons/connect.html #connect-show');
-        $('#openShowInfoConnectCinePolisSeasons5Jan23').load('/TheatreLayout/5Jan23/CinePolisSeasons/connect.html #connect-show');
+        $('#openShowInfoConnectCinePolisSeasons3Jan23').load('/TheatreLayout/3Jan23/cinePolisSeasons/connect.html #connect-show');
+        $('#openShowInfoConnectCinePolisSeasons4Jan23').load('/TheatreLayout/4Jan23/cinePolisSeasons/connect.html #connect-show');
+        $('#openShowInfoConnectCinePolisSeasons5Jan23').load('/TheatreLayout/5Jan23/cinePolisSeasons/connect.html #connect-show');
         
 });
 
@@ -164,19 +164,19 @@ $(document).ready(function loadShowHit2() {
         $('#openShowInfoHit2CityPrideSataraRoad4Jan23').load('/TheatreLayout/4Jan23/cityPrideSataraRoad/hit2.html #hit2-show');
         $('#openShowInfoHit2CityPrideSataraRoad5Jan23').load('/TheatreLayout/5Jan23/cityPrideSataraRoad/hit2.html #hit2-show');
        
-        $('#openShowInfoHit2CinePolisSeasons3Jan23').load('/TheatreLayout/3Jan23/CinePolisSeasons/hit2.html #hit2-show');
-        $('#openShowInfoHit2CinePolisSeasons4Jan23').load('/TheatreLayout/4Jan23/CinePolisSeasons/hit2.html #hit2-show');
-        $('#openShowInfoHit2CinePolisSeasons5Jan23').load('/TheatreLayout/5Jan23/CinePolisSeasons/hit2.html #hit2-show');
+        $('#openShowInfoHit2CinePolisSeasons3Jan23').load('/TheatreLayout/3Jan23/cinePolisSeasons/hit2.html #hit2-show');
+        $('#openShowInfoHit2CinePolisSeasons4Jan23').load('/TheatreLayout/4Jan23/cinePolisSeasons/hit2.html #hit2-show');
+        $('#openShowInfoHit2CinePolisSeasons5Jan23').load('/TheatreLayout/5Jan23/cinePolisSeasons/hit2.html #hit2-show');
 });
 
 $(document).ready(function loadShowVed() {
-        $('#openShowInfoVedCityPrideSataraRoad3Jan23').load('/TheatreLayout/3Jan23/cityPrideSataraRoad/ved2.html #ved-show');
-        $('#openShowInfoVedCityPrideSataraRoad4Jan23').load('/TheatreLayout/4Jan23/cityPrideSataraRoad/ved2.html #ved-show');
-        $('#openShowInfoVedCityPrideSataraRoad5Jan23').load('/TheatreLayout/5Jan23/cityPrideSataraRoad/ved2.html #ved-show');
+        $('#openShowInfoVedCityPrideSataraRoad3Jan23').load('/TheatreLayout/3Jan23/cityPrideSataraRoad/ved.html #ved-show');
+        $('#openShowInfoVedCityPrideSataraRoad4Jan23').load('/TheatreLayout/4Jan23/cityPrideSataraRoad/ved.html #ved-show');
+        $('#openShowInfoVedCityPrideSataraRoad5Jan23').load('/TheatreLayout/5Jan23/cityPrideSataraRoad/ved.html #ved-show');
 
-        $('#openShowInfoVedCinePolisSeasons3Jan23').load('/TheatreLayout/3Jan23/CinePolisSeasons/ved.html #ved-show');
-        $('#openShowInfoVedCinePolisSeasons4Jan23').load('/TheatreLayout/4Jan23/CinePolisSeasons/ved.html #ved-show');
-        $('#openShowInfoVedCinePolisSeasons5Jan23').load('/TheatreLayout/5Jan23/CinePolisSeasons/ved.html #ved-show');
+        $('#openShowInfoVedCinePolisSeasons3Jan23').load('/TheatreLayout/3Jan23/cinePolisSeasons/ved.html #ved-show');
+        $('#openShowInfoVedCinePolisSeasons4Jan23').load('/TheatreLayout/4Jan23/cinePolisSeasons/ved.html #ved-show');
+        $('#openShowInfoVedCinePolisSeasons5Jan23').load('/TheatreLayout/5Jan23/cinePolisSeasons/ved.html #ved-show');
         
 });
 
@@ -185,9 +185,9 @@ $(document).ready(function loadShowAnActionHero() {
         $('#openShowInfoAnActionHeroCityPrideSataraRoad4Jan23').load('/TheatreLayout/4Jan23/cityPrideSataraRoad/anActionHero.html #anActionHero-show');
         $('#openShowInfoAnActionHeroCityPrideSataraRoad5Jan23').load('/TheatreLayout/5Jan23/cityPrideSataraRoad/anActionHero.html #anActionHero-show');
 
-        $('#openShowInfoAnActionHeroCinePolisSeasons3Jan23').load('/TheatreLayout/3Jan23/CinePolisSeasons/anActionHero.html #anActionHero-show');
-        $('#openShowInfoAnActionHeroCinePolisSeasons4Jan23').load('/TheatreLayout/4Jan23/CinePolisSeasons/anActionHero.html #anActionHero-show');
-        $('#openShowInfoAnActionHeroCinePolisSeasons5Jan23').load('/TheatreLayout/5Jan23/CinePolisSeasons/anActionHero.html #anActionHero-show');
+        $('#openShowInfoAnActionHeroCinePolisSeasons3Jan23').load('/TheatreLayout/3Jan23/cinePolisSeasons/anActionHero.html #anActionHero-show');
+        $('#openShowInfoAnActionHeroCinePolisSeasons4Jan23').load('/TheatreLayout/4Jan23/cinePolisSeasons/anActionHero.html #anActionHero-show');
+        $('#openShowInfoAnActionHeroCinePolisSeasons5Jan23').load('/TheatreLayout/5Jan23/cinePolisSeasons/anActionHero.html #anActionHero-show');
 });
 
 function fnSelectSeat(seatId){
