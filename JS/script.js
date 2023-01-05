@@ -13,6 +13,10 @@ $(document).ready(function () {
         //4Jan23
         $("#cityPrideSataraRoadAnActionHero-4Jan23").load('/Theaters/4Jan23/cityPrideSataraRoad.html #showSpaceAnActionHero');
         $("#cinePolisSeasonsAnActionHero-4Jan23").load('/Theaters/4Jan23/cinePolisSeasons.html #showSpaceAnActionHero');
+        
+        //5Jan23
+        $("#cityPrideSataraRoadAnActionHero-5Jan23").load('/Theaters/5Jan23/cityPrideSataraRoad.html #showSpaceAnActionHero');
+        $("#cinePolisSeasonsAnActionHero-5Jan23").load('/Theaters/5Jan23/cinePolisSeasons.html #showSpaceAnActionHero');
 });
 
 $(document).ready(function loadMovieInfoAnActionHero() {
@@ -28,6 +32,10 @@ $(document).ready(function () {
         //4Jan23
         $("#cityPrideSataraRoadAvatar2-4Jan23").load('/Theaters/4Jan23/cityPrideSataraRoad.html #showSpaceAvatar2');
         $("#cinePolisSeasonsAvatar2-4Jan23").load('/Theaters/4Jan23/cinePolisSeasons.html #showSpaceAvatar2');
+
+        //4Jan23
+        $("#cityPrideSataraRoadAvatar2-5Jan23").load('/Theaters/5Jan23/cityPrideSataraRoad.html #showSpaceAvatar2');
+        $("#cinePolisSeasonsAvatar2-5Jan23").load('/Theaters/5Jan23/cinePolisSeasons.html #showSpaceAvatar2');
 });
 
 $(document).ready(function loadMovieInfoAvatar2() {
@@ -43,6 +51,10 @@ $(document).ready(function () {
         //4Jan23
         $("#cityPrideSataraRoadConnect-4Jan23").load('/Theaters/4Jan23/cityPrideSataraRoad.html #showSpaceConnect');
         $("#cinePolisSeasonsConnect-4Jan23").load('/Theaters/4Jan23/cinePolisSeasons.html #showSpaceConnect');
+
+        //5Jan23
+        $("#cityPrideSataraRoadConnect-5Jan23").load('/Theaters/5Jan23/cityPrideSataraRoad.html #showSpaceConnect');
+        $("#cinePolisSeasonsConnect-5Jan23").load('/Theaters/5Jan23/cinePolisSeasons.html #showSpaceConnect');
 });
 
 $(document).ready(function loadMovieInfoConnect() {
@@ -58,6 +70,10 @@ $(document).ready(function () {
         //4Jan23
         $("#cityPrideSataraRoadDrishyam2-4Jan23").load('/Theaters/4Jan23/cityPrideSataraRoad.html #showSpaceDrishyam2');
         $("#cinePolisSeasonsDrishyam2-4Jan23").load('/Theaters/4Jan23/cinePolisSeasons.html #showSpaceDrishyam2');
+
+        //5Jan23
+        $("#cityPrideSataraRoadDrishyam2-5Jan23").load('/Theaters/5Jan23/cityPrideSataraRoad.html #showSpaceDrishyam2');
+        $("#cinePolisSeasonsDrishyam2-5Jan23").load('/Theaters/5Jan23/cinePolisSeasons.html #showSpaceDrishyam2');
 });
 
 $(document).ready(function loadMovieInfoDrishyam2() {
@@ -74,6 +90,10 @@ $(document).ready(function () {
         //4Jan23
         $("#cityPrideSataraRoadHit2-4Jan23").load('/Theaters/4Jan23/cityPrideSataraRoad.html #showSpaceHit2');
         $("#cinePolisSeasonsHit2-4Jan23").load('/Theaters/4Jan23/cinePolisSeasons.html #showSpaceHit2');
+
+        //5Jan23
+        $("#cityPrideSataraRoadHit2-5Jan23").load('/Theaters/5Jan23/cityPrideSataraRoad.html #showSpaceHit2');
+        $("#cinePolisSeasonsHit2-5Jan23").load('/Theaters/5Jan23/cinePolisSeasons.html #showSpaceHit2');
 });
 
 $(document).ready(function loadMovieInfoHit2() {
@@ -89,6 +109,10 @@ $(document).ready(function () {
         //4Jan23
         $("#cityPrideSataraRoadVed-4Jan23").load('/Theaters/4Jan23/cityPrideSataraRoad.html #showSpaceVed');
         $("#cinePolisSeasonsVed-4Jan23").load('/Theaters/4Jan23/cinePolisSeasons.html #showSpaceVed');
+
+        //5Jan23
+        $("#cityPrideSataraRoadVed-5Jan23").load('/Theaters/5Jan23/cityPrideSataraRoad.html #showSpaceVed');
+        $("#cinePolisSeasonsVed-5Jan23").load('/Theaters/5Jan23/cinePolisSeasons.html #showSpaceVed');
 });
 
 $(document).ready(function loadMovieInfoVed() {
@@ -102,11 +126,49 @@ $(document).ready(function loadMovieInfoProjapati() {
 
 
 $(document).ready(function loadShowAvatar2() {
-        $('#openShowInfoAvatar23Jan23').load('/TheatreLayout/3Jan23/cityPrideSataraRoad/layout.html #avatar2-show');
+        //3Jan23
+        $('#openShowInfoAvatar2CityPrideSataraRoad3Jan23').load('/TheatreLayout/3Jan23/cityPrideSataraRoad/avatar2.html #avatar2-show');
+        $('#openShowInfoAvatar2CinePolisSeasons3Jan23').load('/TheatreLayout/3Jan23/cinePolisSeasons/avatar2.html #avatar2-show');
+        //3Jan23
+        $('#openShowInfoAvatar2CityPrideSataraRoad4Jan23').load('/TheatreLayout/3Jan23/cityPrideSataraRoad/avatar2.html #avatar2-show');
+        $('#openShowInfoAvatar2CinePolisSeasons4Jan23').load('/TheatreLayout/3Jan23/cinePolisSeasons/avatar2.html #avatar2-show');
+        //3Jan23
+        $('#openShowInfoAvatar2CityPrideSataraRoad3Jan23').load('/TheatreLayout/3Jan23/cityPrideSataraRoad/avatar2.html #avatar2-show');
+        $('#openShowInfoAvatar2CinePolisSeasons3Jan23').load('/TheatreLayout/3Jan23/cinePolisSeasons/avatar2.html #avatar2-show');
+
+        
 });
 
 $(document).ready(function loadShowDrishyam2() {
-        $('#openShowInfoDrishyam23Jan23').load('/TheatreLayout/3Jan23/cityPrideSataraRoad/layout.html #drishyam2-show');
+        $('#openShowInfoDrishyam23Jan23').load('/TheatreLayout/3Jan23/cityPrideSataraRoad/drishyam2.html #drishyam2-show');
+        $('#openShowInfoDrishyam24Jan23').load('/TheatreLayout/4Jan23/cityPrideSataraRoad/drishyam2.html #drishyam2-show');
+        $('#openShowInfoDrishyam25Jan23').load('/TheatreLayout/5Jan23/cityPrideSataraRoad/drishyam2.html #drishyam2-show');
+});
+
+$(document).ready(function loadShowConnect() {
+        $('#openShowInfoConnect3Jan23').load('/TheatreLayout/3Jan23/cityPrideSataraRoad/connect.html #connect-show');
+        $('#openShowInfoConnect4Jan23').load('/TheatreLayout/4Jan23/cityPrideSataraRoad/connect.html #connect-show');
+        $('#openShowInfoConnect5Jan23').load('/TheatreLayout/5Jan23/cityPrideSataraRoad/connect.html #connect-show');
+        
+});
+
+$(document).ready(function loadShowHit2() {
+        $('#openShowInfoHit23Jan23').load('/TheatreLayout/3Jan23/cityPrideSataraRoad/hit2.html #hit2-show');
+        $('#openShowInfoHit24Jan23').load('/TheatreLayout/4Jan23/cityPrideSataraRoad/hit2.html #hit2-show');
+        $('#openShowInfoHit25Jan23').load('/TheatreLayout/5Jan23/cityPrideSataraRoad/hit2.html #hit2-show');
+       
+});
+
+$(document).ready(function loadShowVed() {
+        $('#openShowInfoVed3Jan23').load('/TheatreLayout/3Jan23/cityPrideSataraRoad/ved2.html #ved-show');
+        $('#openShowInfoVed4Jan23').load('/TheatreLayout/4Jan23/cityPrideSataraRoad/ved2.html #ved-show');
+        $('#openShowInfoVed5Jan23').load('/TheatreLayout/5Jan23/cityPrideSataraRoad/ved2.html #ved-show');
+});
+
+$(document).ready(function loadShowAnActionHero() {
+        $('#openShowInfoAnActionHero3Jan23').load('/TheatreLayout/3Jan23/cityPrideSataraRoad/anActionHero.html #anActionHero-show');
+        $('#openShowInfoAnActionHero4Jan23').load('/TheatreLayout/4Jan23/cityPrideSataraRoad/anActionHero.html #anActionHero-show');
+        $('#openShowInfoAnActionHero5Jan23').load('/TheatreLayout/5Jan23/cityPrideSataraRoad/anActionHero.html #anActionHero-show');
 });
 
 function fnSelectSeat(seatId){

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,33 +7,35 @@
     <link rel="stylesheet" href="/CSS/styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="/JS/script.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
     <title></title>
 </head>
 
 <body>
     <section id="header1"></section>
     <section style="border-bottom: 1px solid black; width: 75%;">
-        <h5>Cine Polis : Seasons Mall <span class="badge" style="font-size: 12px; font-weight: 500;"><a href="https://goo.gl/maps/Ffa8JcE9Fw8tei4H6" style="text-decoration: none; color: rgb(27, 177, 17);" data-bs-toggle="tooltip" data-bs-placement="top" title="Map">direction</a></span></h5>
+        <h5>City Pride : Satara Road <span class="badge" style="font-size: 12px; font-weight: 500;"><a href="https://goo.gl/maps/f8SWFf3SEc2T7ZaH7" style="text-decoration: none; color: rgb(27, 177, 17);" data-bs-toggle="tooltip" data-bs-placement="top" title="Map">direction</a></span></h5>
     </section>
     <section style="padding: 5px;">
         <ul class="nav nav-pills">
             <li class="nav-item">
-                <a class="nav-link" href="/Theaters/3Jan23/cinePolisSeasons.html" id="dateBar">
+                <a class="nav-link" href="/Theaters/3Jan23/cityPrideSataraRoad.html" id="dateBar">
                     <span class="dayName">TUE</span><br>
                     <span class="dateNumber">3</span><br>
                     <span class="dayName">JAN</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" id="dateBar" aria-current="page">
+                <a class="nav-link" href="/Theaters/4Jan23/cityPrideSataraRoad.html" id="dateBar"></a>
                     <span class="dayName">WED</span><br>
                     <span class="dateNumber">4</span><br>
                     <span class="dayName">JAN</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/Theaters/5Jan23/cinePolisSeasons.html" id="dateBar">
+                <a class="nav-link active" id="dateBar" aria-current="page">
                     <span class="dayName">THU</span><br>
                     <span class="dateNumber">5</span><br>
                     <span class="dayName">JAN</span>
@@ -51,37 +52,19 @@
                     <li class="list-group-item">
                         <div class="row row-cols-8 row-cols-sm-8 row-cols-md-10 g-6" id="showSpaceAvatar2">
                             <div class="col" id="showTimeRow">
-                                <div class="card h-time">
+                                <div class="card h-time" >
                                     <a href="" class="card-body" id="show-time-text" data-bs-toggle="modal"
-                                    data-bs-target="#avatar2-0915am" onclick="loadShowAvatar2()">
-                                        <p class="showText">09:15 AM</p>
+                                    data-bs-target="#avatar2-0850am" onclick="loadShowAvatar2()">
+                                        <p class="showText">08:50 AM</p>
                                     </a>
                                 </div>
                             </div>
                             <div class="col" id="showTimeRow">
                                 <div class="card h-time">
                                     <a href="" class="card-body" id="show-time-text" data-bs-toggle="modal"
-                                    data-bs-target="#avatar2-1010am" onclick="loadShowAvatar2()">
-                                        <p class="showText">10:10 AM<br>
-                                            Dolby 7.1
-                                        </p>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col" id="showTimeRow">
-                                <div class="card h-time">
-                                    <a href="#" class="card-body" id="show-time-text" data-bs-toggle="modal"
-                                    data-bs-target="#avatar2-1230pm" onclick="loadShowAvatar2()">
-                                        <p class="showText">12:30 PM</p>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col" id="showTimeRow">
-                                <div class="card h-time">
-                                    <a href="" class="card-body" id="show-time-text" data-bs-toggle="modal"
-                                    data-bs-target="#avatar2-0125pm" onclick="loadShowAvatar2()">
-                                        <p class="showText">01:25 PM<br>
-                                            Dolby 7.1
+                                    data-bs-target="#avatar2-0930am" onclick="loadShowAvatar2()">
+                                        <p class="showText">09:30 AM<br>
+                                            Dolby Atmos
                                         </p>
                                     </a>
                                 </div>
@@ -89,18 +72,44 @@
                             <div class="col" id="showTimeRow">
                                 <div class="card h-time">
                                     <a href="" class="card-body" id="show-time-text" data-bs-toggle="modal"
-                                    data-bs-target="#avatar2-0345pm" onclick="loadShowAvatar2()">
-                                        <p class="showText">03:45 PM</p>
+                                    data-bs-target="#avatar2-1200pm" onclick="loadShowAvatar2()">
+                                        <p class="showText">12:00 PM</p>
                                     </a>
                                 </div>
                             </div>
                             <div class="col" id="showTimeRow">
                                 <div class="card h-time">
                                     <a href="" class="card-body" id="show-time-text" data-bs-toggle="modal"
-                                    data-bs-target="#avatar2-0440pm" onclick="loadShowAvatar2()">
-                                        <p class="showText">04:40 PM<br>
-                                            Dolby 7.1
+                                    data-bs-target="#avatar2-1240pm" onclick="loadShowAvatar2()">
+                                        <p class="showText">12:40 PM<br>
+                                            Dolby Atmos
                                         </p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col" id="showTimeRow">
+                                <div class="card h-time">
+                                    <a href="" class="card-body" id="show-time-text" data-bs-toggle="modal"
+                                    data-bs-target="#avatar2-0310pm" onclick="loadShowAvatar2()">
+                                        <p class="showText">03:10 PM</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col" id="showTimeRow">
+                                <div class="card h-time">
+                                    <a href="" class="card-body" id="show-time-text" data-bs-toggle="modal"
+                                    data-bs-target="#avatar2-0350pm" onclick="loadShowAvatar2()">
+                                        <p class="showText">03:50 PM<br>
+                                            Dolby Atmos
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col" id="showTimeRow">
+                                <div class="card h-time">
+                                    <a href="" class="card-body" id="show-time-text" data-bs-toggle="modal"
+                                    data-bs-target="#avatar2-0620pm" onclick="loadShowAvatar2()">
+                                        <p class="showText">06:20 PM</p>
                                     </a>
                                 </div>
                             </div>
@@ -108,42 +117,29 @@
                                 <div class="card h-time">
                                     <a href="" class="card-body" id="show-time-text" data-bs-toggle="modal"
                                     data-bs-target="#avatar2-0700pm" onclick="loadShowAvatar2()">
-                                        <p class="showText">07:00 PM</p>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col" id="showTimeRow">
-                                <div class="card h-time">
-                                    <a href="" class="card-body" id="show-time-text" data-bs-toggle="modal"
-                                    data-bs-target="#avatar2-0755pm" onclick="loadShowAvatar2()">
-                                        <p class="showText">07:55 PM<br>
-                                            Dolby 7.1
+                                        <p class="showText">07:00 PM<br>
+                                            Dolby Atmos
                                         </p>
                                     </a>
                                 </div>
                             </div>
+                            
                             <div class="col" id="showTimeRow">
                                 <div class="card h-time">
                                     <a href="" class="card-body" id="show-time-text" data-bs-toggle="modal"
-                                    data-bs-target="#avatar2-1000pm" onclick="loadShowAvatar2()">
-                                        <p class="showText">10:00 PM</p>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col" id="showTimeRow">
-                                <div class="card h-time">
-                                    <a href="" class="card-body" id="show-time-text" data-bs-toggle="modal"
-                                    data-bs-target="#avatar2-1110pm" onclick="loadShowAvatar2()">
-                                        <p class="showText">11:10 PM<br>
-                                            Dolby 7.1
+                                    data-bs-target="#avatar2-1010pm" onclick="loadShowAvatar2()">
+                                        <p class="showText">10:10 PM<br>
+                                            Dolby Atmos
                                         </p>
                                     </a>
                                 </div>
                             </div>
+                            
                         </div>
                     </li>
                 </ul>
             </li>
+            
             <li class="list-group-item" style="padding: 0 15px;">
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">Connect
@@ -153,24 +149,14 @@
                             <div class="col" id="showTimeRow">
                                 <div class="card h-time">
                                     <a href="" class="card-body" id="show-time-text" data-bs-toggle="modal"
-                                    data-bs-target="#connect-0945am" onclick="loadShowConnect()">
-                                        <p class="showText">09:45 AM</p>
+                                    data-bs-target="#connect-0930pm" onclick="loadShowConnect()">
+                                        <p class="showText">09:30 PM</p>
                                     </a>
                                 </div>
                             </div>
                             <div class="col" id="showTimeRow">
                                 <div class="card h-time">
                                     <a href="" class="card-body" id="show-time-text" data-bs-toggle="modal"
-                                    data-bs-target="#connect-0345pm" onclick="loadShowConnect()">
-                                        <p class="showText">03:45 PM<br>
-                                            Dolby 7.1
-                                        </p>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col" id="showTimeRow">
-                                <div class="card h-time">
-                                    <a href="#" class="card-body" id="show-time-text" data-bs-toggle="modal"
                                     data-bs-target="#connect-0700pm" onclick="loadShowConnect()">
                                         <p class="showText">07:00 PM</p>
                                     </a>
@@ -189,25 +175,25 @@
                             <div class="col" id="showTimeRow">
                                 <div class="card h-time">
                                     <a href="" class="card-body" id="show-time-text" data-bs-toggle="modal"
-                                    data-bs-target="#drishyam2-0900am" onclick="loadShowDrishyam2()">
-                                        <p class="showText">09:00 AM</p>
+                                    data-bs-target="#drishyam2-1000am" onclick="loadShowDrishyam2()">
+                                        <p class="showText">10:00 AM</p>
                                     </a>
                                 </div>
                             </div>
                             <div class="col" id="showTimeRow">
                                 <div class="card h-time">
                                     <a href="" class="card-body" id="show-time-text" data-bs-toggle="modal"
-                                    data-bs-target="#drishyam2-1200pm" onclick="loadShowDrishyam2()">
-                                        <p class="showText">12:00 PM
+                                    data-bs-target="#drishyam2-0100pm" onclick="loadShowDrishyam2()">
+                                        <p class="showText">01:00 PM
                                         </p>
                                     </a>
                                 </div>
                             </div>
                             <div class="col" id="showTimeRow">
                                 <div class="card h-time">
-                                    <a href="#" class="card-body" id="show-time-text" data-bs-toggle="modal"
-                                    data-bs-target="#drishyam2-0300pm" onclick="loadShowDrishyam2()">
-                                        <p class="showText">03:00 PM</p>
+                                    <a href="#" class="card-body" id="show-time-text"  data-bs-toggle="modal"
+                                    data-bs-target="#drishyam2-0400pm" onclick="loadShowDrishyam2()">
+                                        <p class="showText">04:00 PM</p>
                                     </a>
                                 </div>
                             </div>
@@ -215,8 +201,8 @@
                             <div class="col" id="showTimeRow">
                                 <div class="card h-time">
                                     <a href="" class="card-body" id="show-time-text" data-bs-toggle="modal"
-                                    data-bs-target="#drishyam2-0900pm" onclick="loadShowDrishyam2()">
-                                        <p class="showText">09:00 PM</p>
+                                    data-bs-target="#drishyam2-1000pm" onclick="loadShowDrishyam2()">
+                                        <p class="showText">10:00 PM</p>
                                     </a>
                                 </div>
                             </div>
@@ -234,8 +220,25 @@
                             <div class="col" id="showTimeRow">
                                 <div class="card h-time">
                                     <a href="" class="card-body" id="show-time-text" data-bs-toggle="modal"
-                                    data-bs-target="#hit2-0100pm" onclick="loadShowHit2()">
-                                        <p class="showText">01:00 PM</p>
+                                    data-bs-target="#hit2-0900am" onclick="loadShowHit2()">
+                                        <p class="showText">09:00 AM</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col" id="showTimeRow">
+                                <div class="card h-time">
+                                    <a href="" class="card-body" id="show-time-text" data-bs-toggle="modal"
+                                    data-bs-target="#hit2-1200pm" onclick="loadShowHit2()">
+                                        <p class="showText">12:00 PM<br>
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col" id="showTimeRow">
+                                <div class="card h-time">
+                                    <a href="#" class="card-body" id="show-time-text" data-bs-toggle="modal"
+                                    data-bs-target="#hit2-0300pm" onclick="loadShowHit2()">
+                                        <p class="showText">03:00 PM</p>
                                     </a>
                                 </div>
                             </div>
@@ -260,20 +263,29 @@
                             <div class="col" id="showTimeRow">
                                 <div class="card h-time">
                                     <a href="" class="card-body" id="show-time-text" data-bs-toggle="modal"
-                                    data-bs-target="#anActionHero-0415pm" onclick="loadShowAnActionHero()">
-                                        <p class="showText">04:15 PM</p>
+                                    data-bs-target="#anActionHero-0250pm" onclick="loadShowAnActionHero()">
+                                        <p class="showText">02:50 PM</p>
                                     </a>
                                 </div>
                             </div>
                             <div class="col" id="showTimeRow">
                                 <div class="card h-time">
                                     <a href="" class="card-body" id="show-time-text" data-bs-toggle="modal"
-                                    data-bs-target="#anActionHero-0730pm" onclick="loadShowAnActionHero()">
-                                        <p class="showText">7:30 PM
+                                    data-bs-target="#anActionHero-0650pm" onclick="loadShowAnActionHero()">
+                                        <p class="showText">06:50 PM
                                         </p>
                                     </a>
                                 </div>
                             </div>
+                            <div class="col" id="showTimeRow">
+                                <div class="card h-time">
+                                    <a href="#" class="card-body" id="show-time-text" data-bs-toggle="modal"
+                                    data-bs-target="#anActionHero-1050pm" onclick="loadShowAnActionHero()">
+                                        <p class="showText">10:50 PM</p>
+                                    </a>
+                                </div>
+                            </div>
+                            
                         </div>
                     </li>
                 </ul>
@@ -287,16 +299,16 @@
                             <div class="col" id="showTimeRow">
                                 <div class="card h-time">
                                     <a href="" class="card-body" id="show-time-text" data-bs-toggle="modal"
-                                    data-bs-target="#ved-0800am" onclick="loadShowVed()">
-                                        <p class="showText">08:00 AM</p>
+                                    data-bs-target="#ved-0700am" onclick="loadShowVed()">
+                                        <p class="showText">07:00 AM</p>
                                     </a>
                                 </div>
                             </div>
                             <div class="col" id="showTimeRow">
                                 <div class="card h-time">
                                     <a href="" class="card-body" id="show-time-text" data-bs-toggle="modal"
-                                    data-bs-target="#ved-1000am" onclick="loadShowVed()">
-                                        <p class="showText">10:00 AM
+                                    data-bs-target="#ved-0850am" onclick="loadShowVed()">
+                                        <p class="showText">8:50 AM
                                         </p>
                                     </a>
                                 </div>
@@ -304,64 +316,80 @@
                             <div class="col" id="showTimeRow">
                                 <div class="card h-time">
                                     <a href="#" class="card-body" id="show-time-text" data-bs-toggle="modal"
-                                    data-bs-target="#ved-1120am" onclick="loadShowVed()">
-                                        <p class="showText">11:20 AM</p>
+                                    data-bs-target="#ved-1000am" onclick="loadShowVed()">
+                                        <p class="showText">10:00 AM</p>
                                     </a>
                                 </div>
                             </div>
                             <div class="col" id="showTimeRow">
                                 <div class="card h-time">
                                     <a href="" class="card-body" id="show-time-text" data-bs-toggle="modal"
-                                    data-bs-target="#ved-0115pm" onclick="loadShowVed()">
-                                        <p class="showText">01:15 PM</p>
+                                    data-bs-target="#ved-1150am" onclick="loadShowVed()">
+                                        <p class="showText">11:50 AM</p>
                                     </a>
                                 </div>
                             </div>
                             <div class="col" id="showTimeRow">
                                 <div class="card h-time">
                                     <a href="" class="card-body" id="show-time-text" data-bs-toggle="modal"
-                                    data-bs-target="#ved-0240pm" onclick="loadShowVed()">
-                                        <p class="showText">02:40 PM</p>
+                                    data-bs-target="#ved-0100pm" onclick="loadShowVed()">
+                                        <p class="showText">01:00 PM</p>
                                     </a>
                                 </div>
                             </div>
                             <div class="col" id="showTimeRow">
                                 <div class="card h-time">
                                     <a href="" class="card-body" id="show-time-text" data-bs-toggle="modal"
-                                    data-bs-target="#ved-0430pm" onclick="loadShowVed()">
-                                        <p class="showText">04:30 PM</p>
+                                    data-bs-target="#ved-0250pm" onclick="loadShowVed()">
+                                        <p class="showText">02:50 PM</p>
                                     </a>
                                 </div>
                             </div>
                             <div class="col" id="showTimeRow">
                                 <div class="card h-time">
                                     <a href="" class="card-body" id="show-time-text" data-bs-toggle="modal"
-                                    data-bs-target="#ved-0600pm" onclick="loadShowVed()">
-                                        <p class="showText">06:00 PM</p>
+                                    data-bs-target="#ved-0400pm" onclick="loadShowVed()">
+                                        <p class="showText">04:00 PM</p>
                                     </a>
                                 </div>
                             </div>
                             <div class="col" id="showTimeRow">
                                 <div class="card h-time">
                                     <a href="" class="card-body" id="show-time-text" data-bs-toggle="modal"
-                                    data-bs-target="#ved-0745pm" onclick="loadShowVed()">
-                                        <p class="showText">07:45 PM</p>
+                                    data-bs-target="#ved-0550pm" onclick="loadShowVed()">
+                                        <p class="showText">05:50 PM</p>
                                     </a>
                                 </div>
                             </div>
                             <div class="col" id="showTimeRow">
                                 <div class="card h-time">
                                     <a href="" class="card-body" id="show-time-text" data-bs-toggle="modal"
-                                    data-bs-target="#ved-0920pm" onclick="loadShowVed()">
-                                        <p class="showText">09:20 PM</p>
+                                    data-bs-target="#ved-0700pm" onclick="loadShowVed()">
+                                        <p class="showText">07:00 PM</p>
                                     </a>
                                 </div>
                             </div>
                             <div class="col" id="showTimeRow">
                                 <div class="card h-time">
                                     <a href="" class="card-body" id="show-time-text" data-bs-toggle="modal"
-                                    data-bs-target="#ved-1100pm" onclick="loadShowVed()">
-                                        <p class="showText">11:00 PM</p>
+                                    data-bs-target="#ved-0850pm" onclick="loadShowVed()">
+                                        <p class="showText">08:50 PM</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col" id="showTimeRow">
+                                <div class="card h-time">
+                                    <a href="" class="card-body" id="show-time-text" data-bs-toggle="modal"
+                                    data-bs-target="#ved-1000pm" onclick="loadShowVed()">
+                                        <p class="showText">10:00 PM</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col" id="showTimeRow">
+                                <div class="card h-time">
+                                    <a href="" class="card-body" id="show-time-text" data-bs-toggle="modal"
+                                    data-bs-target="#ved-1150pm" onclick="loadShowVed()">
+                                        <p class="showText">11:50 PM</p>
                                     </a>
                                 </div>
                             </div>
@@ -371,17 +399,12 @@
             </li>
         </ul>
     </section>
-    <div id="openShowInfoAvatar24Jan23"></div>
-    <div id="openShowInfoConnect4Jan23"></div>
-    <div id="openShowInfoDrishyam24Jan23"></div>
-    <div id="openShowInfoHit24Jan23"></div>
-    <div id="openShowInfoVed4Jan23"></div>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-        crossorigin="anonymous"></script>
-
+    <div id="openShowInfoAnActionHero5Jan23"></div>
+    <div id="openShowInfoAvatar25Jan23"></div>
+    <div id="openShowInfoConnect5Jan23"></div>
+    <div id="openShowInfoDrishyam25Jan23"></div>
+    <div id="openShowInfoHit25Jan23"></div>
+    <div id="openShowInfoVed5Jan23"></div>
 </body>
 
 </html>
