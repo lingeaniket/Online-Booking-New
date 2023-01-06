@@ -1,6 +1,9 @@
 $(document).ready(function () {
         $("#header").load('HeaderFooter/header.html');
         $("#header1").load('/HeaderFooter/header.html');
+
+        $("#footer").load('HeaderFooter/footer.html');
+        $("#footer1").load('/HeaderFooter/footer.html');
         document.title = "We Reserve"
 });
 

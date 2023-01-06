@@ -725,6 +725,53 @@ div[id ^="showSpace"] {
     flex: 1 0 0%
 }
 
+.theatreName {
+    text-decoration: none;
+    color: #000000;
+    opacity: 0.75;
+}
+
+.theatreName:hover {
+    opacity: 1;
+}
+
+.addressTheatre{
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+.footerDiv {
+    padding: 15px;
+    background-color: #2C3333;
+    opacity: 0.9;
+    border: none;
+}
+
+.footerName {
+    padding-left: 5px;
+    text-decoration: none;
+    color: wheat;
+    opacity: 0.75;
+}
+
+.footerName:hover {
+    color: wheat;
+    text-decoration: underline;
+    opacity: 1;
+}
+
+#footerContact{
+    color: wheat;
+    background-color: #2C3333;
+    border: none;
+}
+
+.footerRowDiv {
+    color: wheat;
+    background-color: #2C3333;
+    border: none;
+}
+
 #mainCity a {
     text-decoration: none;
     color: black;
