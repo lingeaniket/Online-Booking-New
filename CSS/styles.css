@@ -1436,6 +1436,10 @@ div[id ^="showSpace"] {
     font-size: 8px;
 }
 
+#show-time-text1 p {
+    font-size: 7px;
+}
+
 .card-body.active p{
     font-size: 8px;
 }
@@ -1624,6 +1628,11 @@ div[id ^="showSpace"] {
     #show-time-text p {
         font-size: 10px;
     }
+
+    #show-time-text1 p {
+        font-size: 9px;
+    }
+
     .card-body.active p {
         font-size: 10px;
     }
@@ -1809,6 +1818,10 @@ div[id ^="showSpace"] {
 
     #show-time-text p {
         font-size: 12px;
+    }
+
+    #show-time-text1 p {
+        font-size: 11px;
     }
     .card-body.active p{
         font-size: 12px;
@@ -5147,6 +5160,14 @@ fieldset:disabled .btn {
 
 
 #show-time-text {
+    text-decoration: none;
+    color: rgb(13, 233, 13);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#show-time-text1 {
     text-decoration: none;
     color: rgb(13, 233, 13);
     display: flex;
