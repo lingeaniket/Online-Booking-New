@@ -725,6 +725,18 @@ div[id ^="showSpace"] {
     flex: 1 0 0%
 }
 
+.movieName {
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+    opacity: 0.75;
+}
+
+.movieName:hover {
+    color: #0c4128;
+    opacity: 1;
+}
+
 .theatreName {
     text-decoration: none;
     color: #000000;
